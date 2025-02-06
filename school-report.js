@@ -21,22 +21,22 @@ const studentsAverageAge = (firstStudentAge + secondStudentAge) / 2;
 console.log(
   "INFORME DE LA ESCUELA" +
     "\n " +
-    "\nCursos:" +
-    "\n- " +
+    "\n  Cursos:" +
+    "\n  - " +
     firstCourseName +
     " (nivel " +
     firstDifficultyLevel +
     ", " +
     firstCourseDuration +
     " horas)" +
-    "\n- " +
+    "\n  - " +
     secondCourseName +
     " (nivel " +
     thirdDifficultyLevel +
     ", " +
     thirdCourseDuration +
     " horas)" +
-    "\n- " +
+    "\n  - " +
     thirdCourseName +
     " (nivel " +
     secondDifficultyLevel +
@@ -44,19 +44,19 @@ console.log(
     thirdCourseDuration +
     " horas)" +
     "\n " +
-    "\nAlumnos:" +
-    "\n- " +
+    "\n  Alumnos:" +
+    "\n  - " +
     firstStudentName +
     ", " +
     firstStudentAge +
     " años" +
-    "\n- " +
+    "\n  - " +
     secondStudentName +
     ", " +
     secondStudentAge +
     " años" +
     "\n " +
-    "\nEdad media de los alumnos : " +
+    "\n  Edad media de los alumnos : " +
     studentsAverageAge +
     " años"
 );
