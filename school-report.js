@@ -8,9 +8,9 @@ const firstCourseName = "Introducción al punto de cruz";
 const secondCourseName = "Patronaje técnico";
 const thirdCourseName = "Costura creativa y reciclaje";
 
-const firstDifficultyLevel = "básico";
-const secondDifficultyLevel = "intermedio";
-const thirdDifficultyLevel = "avanzado";
+const firstDifficultyCourseLevel = "básico";
+const secondDifficultyCourseLevel = "intermedio";
+const thirdDifficultyCourseLevel = "avanzado";
 
 const firstCourseDuration = 12;
 const secondCourseDuration = 60;
