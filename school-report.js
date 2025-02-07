@@ -19,44 +19,17 @@ const thirdCourseDuration = 25;
 const studentsAverageAge = (firstStudentAge + secondStudentAge) / 2;
 
 console.log(
-  "INFORME DE LA ESCUELA" +
-    "\n " +
-    "\n  Cursos:" +
-    "\n  - " +
-    firstCourseName +
-    " (nivel " +
-    firstDifficultyLevel +
-    ", " +
-    firstCourseDuration +
-    " horas)" +
-    "\n  - " +
-    secondCourseName +
-    " (nivel " +
-    thirdDifficultyLevel +
-    ", " +
-    thirdCourseDuration +
-    " horas)" +
-    "\n  - " +
-    thirdCourseName +
-    " (nivel " +
-    secondDifficultyLevel +
-    ", " +
-    thirdCourseDuration +
-    " horas)" +
-    "\n " +
-    "\n  Alumnos:" +
-    "\n  - " +
-    firstStudentName +
-    ", " +
-    firstStudentAge +
-    " años" +
-    "\n  - " +
-    secondStudentName +
-    ", " +
-    secondStudentAge +
-    " años" +
-    "\n " +
-    "\n  Edad media de los alumnos : " +
-    studentsAverageAge +
-    " años"
+  `INFORME DE LA ESCUELA
+
+  Cursos:
+  - ${firstCourseName} (nivel ${firstDifficultyCourseLevel}, ${firstCourseDuration} horas)
+  - ${secondCourseName} (nivel ${thirdDifficultyCourseLevel}, ${secondCourseDuration} horas)
+  - ${thirdCourseName} (nivel ${secondDifficultyCourseLevel}, ${thirdCourseDuration} horas)
+  
+  Alumnos:
+  - ${firstStudentName}, ${firstStudentAge} años
+  - ${secondStudentName}, ${secondStudentAge} años
+
+Edad media de los alumnos: ${studentsAverageAge} años
+`
 );
